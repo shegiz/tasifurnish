@@ -5,17 +5,17 @@
  */
 
 return [
-    'name' => 'Hinterholz Studio',
+    'name' => 'Tasi Furnish',
     'tagline' => 'Egyedi bútorok, tartós minőségben készítve.',
-    'phone' => '+43 660 123 4567',
-    'email' => 'hello@hinterholz.at',
+    'phone' => '+36 20 352 3195',
+    'email' => 'hello@tasifurnish.hu',
     'address' => [
-        'street' => 'Handwerkerstraße 42',
-        'city' => 'Bécs',
-        'postal' => '1030',
-        'country' => 'Ausztria'
+        'street' => 'Erzsébet körút 61.',
+        'city' => 'Budapest',
+        'postal' => '1171',
+        'country' => 'Magyarország'
     ],
-    'region' => 'Bécs és Alsó-Ausztria',
+    'region' => 'Budapest és Pest vármegye',
     'hours' => [
         'weekdays' => 'Hétfő - Péntek: 8:00 - 18:00',
         'saturday' => 'Szombat: 9:00 - 14:00',
