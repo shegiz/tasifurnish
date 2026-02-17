@@ -302,7 +302,7 @@ p {
     font-size: 1.15rem;
     margin-bottom: var(--spacing-lg);
     opacity: 0.95;
-    line-height: 0.9;
+    line-height: 1.1;
 }
 
 .hero-ctas {
