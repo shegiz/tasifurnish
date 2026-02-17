@@ -196,6 +196,7 @@ p {
     border-bottom: 1px solid var(--color-border);
     padding: var(--spacing-sm);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
 }
 
 .nav-menu.active {
@@ -214,6 +215,7 @@ p {
 .nav-menu a.active {
     background-color: var(--color-bg);
     color: var(--color-primary);
+    font-weight: 600;
 }
 
 @media (min-width: 768px) {
