@@ -243,7 +243,7 @@ p {
     position: relative;
     background-image:
         linear-gradient(135deg, rgba(57, 19, 17, 0.8) 0%, rgba(203, 187, 160, 0.6) 100%),
-        url("/storage/index-top.jpg");
+        url("/assets/img/index-top.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
