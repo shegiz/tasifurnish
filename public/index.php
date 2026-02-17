@@ -75,28 +75,27 @@ include __DIR__ . '/../includes/header.php';
 <section class="section" style="background-color: var(--color-white);">
     <div class="container">
         <h2 class="section-title">Munkafolyamatunk</h2>
-        <p class="section-intro">Szorosan együttműködünk Önnel a koncepciótól a befejezésig, biztosítva, hogy minden részlet megfeleljen az Ön elképzelésének.</p>
-        
+        <p class="section-intro">Szorosan együttműködünk Önnel a koncepciótól a befejezésig. Megbeszéljük és megértjük az ön igényeit. Átbeszéljük a munkafolyamatokat, eljárásokat a biztosan dönthessen. Átnézzük a különböző anyagokat és a vasalatokban rejlő praktikákat. Felhívjuk figyelmét a leggyakrabban elkövetet buktatókra, amik elkerülésével sok bosszankodást és komoly összegeket takaríthat meg.</p>
         <div class="process-steps">
             <div class="process-step">
                 <div class="process-step-number">1</div>
-                <h3>Konzultáció</h3>
+                <h3>Díjmentes konzultáció</h3>
                 <p>Megbeszéljük az Ön igényeit, terét, stíluspreferenciáit és költségvetését, hogy megértsük az Ön elképzelését.</p>
             </div>
             <div class="process-step">
                 <div class="process-step-number">2</div>
                 <h3>Tervezés</h3>
-                <p>Részletes terveket és 3D rendereléseket készítünk jóváhagyására, mielőtt a kivitelezés elkezdődne.</p>
+                <p>Részletes műszaki tartalmat készítünk 3D látvány tervvel, anyag és szin mintákkal véglegesítve.</p>
             </div>
             <div class="process-step">
                 <div class="process-step-number">3</div>
                 <h3>Kivitelezés</h3>
-                <p>Képzett mesterembereink hagyományos technikákkal és prémium anyagokkal építik meg az Ön bútorát.</p>
+                <p>Összeszokott asztalos csapat gondoskodik a megtertervezet formák és bútorok prémium anyagokból való elkészítéséről.</p>
             </div>
             <div class="process-step">
                 <div class="process-step-number">4</div>
-                <h3>Kiszerelés</h3>
-                <p>Kiszereljük és beépítjük a bútorát, biztosítva, hogy minden tökéletes legyen és készen álljon a használatra.</p>
+                <h3>Beépítés</h3>
+                <p>Az elkészített bútorokat a helyszínen beépítjük, hogy minden tökéletesen a helyére kerüljün, készen a használatra.</p>
             </div>
         </div>
     </div>
