@@ -651,7 +651,6 @@ p {
 }
 
 .cta-strip a {
-    color: var(--color-white);
     text-decoration: underline;
 }
 
