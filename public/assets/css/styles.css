@@ -651,7 +651,13 @@ p {
 }
 
 .cta-strip a {
+    color: var(--color-white);
     text-decoration: underline;
+}
+
+.cta-strip a.btn {
+    color: var(--color-text);
+    text-decoration: none;
 }
 
 /* ===== PROJECT DETAIL ===== */
