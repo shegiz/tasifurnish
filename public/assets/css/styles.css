@@ -256,14 +256,14 @@ p {
     inset: 0;
     z-index: 0;
 }
-
+/*
 .hero-bg::after {
     content: "";
     position: absolute;
     inset: 0;
     background: linear-gradient(135deg, rgba(57, 19, 17, 0.85) 0%, rgba(203, 187, 160, 0.65) 100%);
 }
-
+*/
 .hero-bg-slide {
     position: absolute;
     inset: 0;
