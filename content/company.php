@@ -6,7 +6,7 @@
 
 return [
     'name' => 'Tasi Furnish',
-    'tagline' => 'Egyedi bútorok, tartós minőségben készítve.',
+    'tagline' => 'Belsőépítészeti kivitelezés egyedi bútorok gyártásával Budapesten és vonzáskörzetében. Egyedi bútorok amelyekkel otthonná varázsoljuk a teret',
     'phone' => '+36 20 352 3195',
     'email' => 'hello@tasifurnish.hu',
     'address' => [
