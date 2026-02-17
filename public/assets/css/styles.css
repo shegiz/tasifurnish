@@ -362,14 +362,14 @@ p {
 
 .btn-secondary {
     background-color: transparent;
-    color: var(--color-white);
-    border-color: var(--color-white);
+    color: var(--color-primary);
+    border-color: var(--color-primary);
 }
 
 .btn-secondary:hover,
 .btn-secondary:focus {
-    background-color: var(--color-white);
-    color: var(--color-secondary);
+    background-color: var(--color-primary-dark);
+    color: var(--color-white);
 }
 
 .btn-large {
