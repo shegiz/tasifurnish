@@ -16,11 +16,13 @@ include __DIR__ . '/../includes/header.php';
 
 <section class="hero">
     <div class="container">
-        <h1><?php echo e($company['name']); ?></h1>
-        <p class="tagline"><?php echo e($company['tagline']); ?></p>
-        <div class="hero-ctas">
-            <a href="/contact.php" class="btn btn-secondary btn-large">Ajánlatkérés</a>
-            <a href="/portfolio.php" class="btn btn-large">Munkáink</a>
+        <div class="hero-card">
+            <h1><?php echo e($company['name']); ?></h1>
+            <p class="tagline"><?php echo e($company['tagline']); ?></p>
+            <div class="hero-ctas">
+                <a href="/contact.php" class="btn btn-secondary btn-large">Ajánlatkérés</a>
+                <a href="/portfolio.php" class="btn btn-large">Munkáink</a>
+            </div>
         </div>
     </div>
 </section>

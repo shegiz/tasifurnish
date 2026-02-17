@@ -15,8 +15,9 @@ $company = get_company();
     <header class="site-header" id="site-header">
         <div class="container">
             <div class="header-content">
-                <a href="/" class="logo">
-                    <h1><?php echo e($company['name']); ?></h1>
+                <a href="/" class="logo" aria-label="<?php echo e($company['name']); ?>">
+                    <img src="/storage/tasi_furnish.svg" alt="" />
+                    <span class="sr-only"><?php echo e($company['name']); ?></span>
                 </a>
                 <nav class="main-nav" id="main-nav" aria-label="Főmenü">
                     <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav">
