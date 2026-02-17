@@ -87,6 +87,20 @@
         });
     });
 
+    // Hero background carousel (homepage)
+    const heroBgSlides = document.querySelectorAll('.hero-bg-slide');
+    if (heroBgSlides.length > 1) {
+        let currentIndex = 0;
+        const intervalMs = 3000; // 3 seconds per slide
+
+        setInterval(function() {
+            const nextIndex = (currentIndex + 1) % heroBgSlides.length;
+            heroBgSlides[currentIndex].classList.remove('is-active');
+            heroBgSlides[nextIndex].classList.add('is-active');
+            currentIndex = nextIndex;
+        }, intervalMs);
+    }
+
     // Form validation enhancement (client-side, server-side is primary)
     const contactForm = document.querySelector('form[action*="contact"]');
     if (contactForm) {

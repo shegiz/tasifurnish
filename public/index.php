@@ -11,10 +11,21 @@ $featured_projects = array_slice($projects, 0, 6);
 // Get testimonials preview (first 3)
 $testimonials_preview = array_slice($testimonials, 0, 3);
 
+// Hero background images (all files starting with "index-top" in storage)
+$hero_images = glob(__DIR__ . '/../storage/index-top*.*');
+sort($hero_images);
+
 include __DIR__ . '/../includes/header.php';
 ?>
 
 <section class="hero">
+    <?php if (!empty($hero_images)): ?>
+    <div class="hero-bg">
+        <?php foreach ($hero_images as $index => $image_path): ?>
+            <div class="hero-bg-slide<?php echo $index === 0 ? ' is-active' : ''; ?>" style="background-image: url('/storage/<?php echo basename($image_path); ?>');"></div>
+        <?php endforeach; ?>
+    </div>
+    <?php endif; ?>
     <div class="container">
         <div class="hero-card">
             <h1><?php echo e($company['name']); ?></h1>

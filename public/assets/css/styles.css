@@ -15,7 +15,7 @@
     --color-primary-dark: rgb(76, 66, 52);
     --color-primary-light: #c5beb4;
     --color-secondary: rgba(51, 179, 218);
-    --color-secondary-transparent: rgba(51, 179, 218, 0.82);
+    --color-secondary-transparent: rgba(51, 179, 218, 0.42);
     --color-secondary-dark: rgb(37, 74, 86);
     --color-secondary-light: rgb(136, 226, 254);
     --color-accent: #e4c5a4;
@@ -245,18 +245,42 @@ p {
 /* ===== HERO SECTION ===== */
 .hero {
     position: relative;
-    background-image:
-    /* linear-gradient(135deg, rgba(57, 19, 17, 0.8) 0%, rgba(203, 187, 160, 0.6) 100%), */
-        url("/assets/img/index-top.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    overflow: hidden;
     color: var(--color-white);
     padding: var(--spacing-2xl) 0;
     text-align: center;
 }
 
+.hero-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.hero-bg::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(57, 19, 17, 0.85) 0%, rgba(203, 187, 160, 0.65) 100%);
+}
+
+.hero-bg-slide {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.hero-bg-slide.is-active {
+    opacity: 1;
+}
+
 .hero-card {
+    position: relative;
+    z-index: 1;
     background-color: rgba(255, 255, 255, 0.95);
     color: var(--color-text);
     border-radius: 18px;
@@ -264,7 +288,7 @@ p {
     max-width: 720px;
     margin: 0 auto;
     box-shadow: 0 18px 45px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(5px);
     background: var(--color-secondary-transparent);
 }
 
