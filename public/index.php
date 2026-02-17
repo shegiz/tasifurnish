@@ -13,7 +13,7 @@ $testimonials_preview = array_slice($testimonials, 0, 3);
 
 // Hero background images (all files starting with "index-top" in storage)
 $hero_images = glob(__DIR__ . '/assets/img/index-top*.*');
-sort($hero_images);
+rsort($hero_images);
 
 include __DIR__ . '/../includes/header.php';
 ?>
