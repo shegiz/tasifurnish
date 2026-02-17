@@ -75,12 +75,12 @@ include __DIR__ . '/../includes/header.php';
 <section class="section" style="background-color: var(--color-white);">
     <div class="container">
         <h2 class="section-title">Munkafolyamatunk</h2>
-        <p class="section-intro">Szorosan együttműködünk Önnel a koncepciótól a befejezésig. Megbeszéljük és megértjük az ön igényeit. Átbeszéljük a munkafolyamatokat, eljárásokat a biztosan dönthessen. Átnézzük a különböző anyagokat és a vasalatokban rejlő praktikákat. Felhívjuk figyelmét a leggyakrabban elkövetet buktatókra, amik elkerülésével sok bosszankodást és komoly összegeket takaríthat meg.</p>
+        <p class="section-intro">Szorosan együttműködünk Önnel a koncepciótól a befejezésig. Segítünk, hogy a biztosan dönthessen: átnézzük a különböző anyagokat és a vasalatokban rejlő praktikákat. Felhívjuk figyelmét a leggyakrabban elkövetet buktatókra, amik elkerülésével sok bosszankodást és komoly összegeket takaríthat meg.</p>
         <div class="process-steps">
             <div class="process-step">
                 <div class="process-step-number">1</div>
                 <h3>Díjmentes konzultáció</h3>
-                <p>Megbeszéljük az Ön igényeit, terét, stíluspreferenciáit és költségvetését, hogy megértsük az Ön elképzelését.</p>
+                <p>Megbeszéljük és megértjük az ön igényeit. Átbeszéljük a munkafolyamatokat, eljárásokat a biztosan dönthessen.</p>
             </div>
             <div class="process-step">
                 <div class="process-step-number">2</div>
