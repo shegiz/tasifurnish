@@ -91,7 +91,7 @@
     const heroBgSlides = document.querySelectorAll('.hero-bg-slide');
     if (heroBgSlides.length > 1) {
         let currentIndex = 0;
-        const intervalMs = 3000; // 3 seconds per slide
+        const intervalMs = 6000; // 3 seconds per slide
 
         setInterval(function() {
             const nextIndex = (currentIndex + 1) % heroBgSlides.length;
