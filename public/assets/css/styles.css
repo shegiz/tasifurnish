@@ -15,6 +15,7 @@
     --color-primary-dark: rgb(76, 66, 52);
     --color-primary-light: #c5beb4;
     --color-secondary: rgba(51, 179, 218);
+    --color-secondary-transparent: rgba(51, 179, 218, 0.82);
     --color-secondary-dark: rgb(37, 74, 86);
     --color-secondary-light: rgb(136, 226, 254);
     --color-accent: #e4c5a4;
@@ -264,7 +265,7 @@ p {
     margin: 0 auto;
     box-shadow: 0 18px 45px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(15px);
-    background: var(--color-secondary)  opacity(0.82);
+    background: var(--color-secondary-transparent);
 }
 
 .hero h1 {
