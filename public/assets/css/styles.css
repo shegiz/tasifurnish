@@ -361,15 +361,16 @@ p {
 }
 
 .btn-secondary {
-    background-color: var(--color-secondary);
+    background-color: var(--color-secondary-light);
     color: var(--color-text);
-    border-color: var(--color-secondary);
+    border-color: var(--color-secondary-light);
 }
 
 .btn-secondary:hover,
 .btn-secondary:focus {
-    background-color: var(--color-secondary-light);
+    background-color: var(--color-secondary);
     color: var(--color-text);
+    border-color: var(--color-secondary);
 }
 
 .btn-large {
