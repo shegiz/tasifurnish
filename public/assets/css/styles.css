@@ -1,5 +1,5 @@
 /**
- * Hinterholz Studio - Stylesheet
+ * Tasi Furnish - Stylesheet
  * Mobile-first, premium craft design
  */
 
@@ -11,12 +11,12 @@
 }
 
 :root {
-    --color-primary: #8B6F47;
-    --color-primary-dark: #6B5537;
-    --color-primary-light: #A6895F;
-    --color-accent: #D4A574;
-    --color-text: #2C2416;
-    --color-text-light: #5C4A3A;
+    --color-primary: #a99e8d;
+    --color-primary-dark: rgb(76, 66, 52);
+    --color-primary-light: #c5beb4;
+    --color-accent: #e4c5a4;
+    --color-text: #24221d;
+    --color-text-light: #5c554f;
     --color-bg: #FAF8F5;
     --color-white: #FFFFFF;
     --color-border: #E8E0D6;
