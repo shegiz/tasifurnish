@@ -108,7 +108,7 @@ return [
     [
         'slug' => 'csillaghegy',
         'title' => 'Csillaghegyi konyha',
-        'category' => 'bedroom',
+        'category' => 'konyha',
         'short' => '',
         'description' => '',
         'year' => 2024,
