@@ -418,6 +418,10 @@ p {
     padding: var(--spacing-2xl) 0;
 }
 
+.section.separator.v2 {
+    background-image: url("/assets/img/munkak/sashalom-csaladi-haz-4.jpg");
+}
+
 /* ===== SERVICES GRID ===== */
 .services-grid {
     display: grid;

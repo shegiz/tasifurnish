@@ -15,7 +15,7 @@ include __DIR__ . '/../includes/header.php';
         </div>
     </div>
 </section>
-<section class="section separator"></section>
+<section class="section separator v2"></section>
 <section class="section">
     <div class="container">
         <h1 class="section-title">Szolgáltatási területünk</h1>
