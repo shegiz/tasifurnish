@@ -113,7 +113,7 @@ return [
         'description' => '',
         'year' => 2024,
         'location' => 'Budapest, III. kerület',
-        'images' => ['csillaghegy-e.jpg']
+        'images' => ['csillaghegy-1.jpg']
     ],
     [
         'slug' => 'tizenegy',
