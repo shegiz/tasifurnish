@@ -29,7 +29,6 @@ $company = get_company();
                     <ul class="nav-menu" id="nav-menu">
                         <li><a href="/" <?php echo (basename($_SERVER['PHP_SELF']) === 'index.php' ? 'class="active"' : ''); ?>>Kezdőlap</a></li>
                         <li><a href="/portfolio.php" <?php echo (basename($_SERVER['PHP_SELF']) === 'portfolio.php' ? 'class="active"' : ''); ?>>Portfólió</a></li>
-                        <li><a href="/references.php" <?php echo (basename($_SERVER['PHP_SELF']) === 'references.php' ? 'class="active"' : ''); ?>>Referenciák</a></li>
                         <li><a href="/about.php" <?php echo (basename($_SERVER['PHP_SELF']) === 'about.php' ? 'class="active"' : ''); ?>>Rólunk</a></li>
                         <li><a href="/contact.php" <?php echo (basename($_SERVER['PHP_SELF']) === 'contact.php' ? 'class="active"' : ''); ?>>Kapcsolat</a></li>
                     </ul>
