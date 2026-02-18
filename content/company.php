@@ -16,11 +16,7 @@ return [
         'country' => 'Magyarország'
     ],
     'region' => 'Budapest és Pest vármegye',
-    'hours' => [
-        'weekdays' => 'Hétfő - Péntek: 8:00 - 18:00',
-        'saturday' => 'Szombat: 9:00 - 14:00',
-        'sunday' => 'Vasárnap: Zárva'
-    ],
+    'hours' => 'Egyéni egyeztetés alapján',
     'social' => [
         'instagram' => 'https://instagram.com/hinterholzstudio',
         'facebook' => 'https://facebook.com/hinterholzstudio',

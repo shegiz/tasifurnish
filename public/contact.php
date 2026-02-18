@@ -59,17 +59,13 @@ include __DIR__ . '/../includes/header.php';
                 <div class="contact-info-item">
                     <h4>Cím</h4>
                     <p>
-                        <?php echo e($company['address']['street']); ?><br>
-                        <?php echo e($company['address']['postal']); ?> <?php echo e($company['address']['city']); ?><br>
-                        <?php echo e($company['address']['country']); ?>
+                        <?php echo e($company['address']['postal']); ?> <?php echo e($company['address']['city']); ?> <?php echo e($company['address']['street']); ?>
                     </p>
                 </div>
                 <div class="contact-info-item">
                     <h4>Nyitvatartás</h4>
                     <p>
-                        <?php echo e($company['hours']['weekdays']); ?><br>
-                        <?php echo e($company['hours']['saturday']); ?><br>
-                        <?php echo e($company['hours']['sunday']); ?>
+                        <?php echo e($company['hours']); ?>
                     </p>
                 </div>
             </div>

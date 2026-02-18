@@ -11,7 +11,6 @@
                     <ul>
                         <li><a href="/">Kezdőlap</a></li>
                         <li><a href="/portfolio.php">Portfólió</a></li>
-                        <li><a href="/references.php">Referenciák</a></li>
                         <li><a href="/about.php">Rólunk</a></li>
                         <li><a href="/contact.php">Kapcsolat</a></li>
                     </ul>
