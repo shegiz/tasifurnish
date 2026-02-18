@@ -299,14 +299,12 @@ function log_contact_submission($data) {
  */
 function format_project_type($type) {
     $types = [
-        'dining' => 'Ebédlő',
-        'bedroom' => 'Hálószoba',
-        'kitchen' => 'Konyha',
-        'living' => 'Nappali',
-        'office' => 'Iroda',
-        'storage' => 'Tárolás',
-        'outdoor' => 'Kültér',
-        'children' => 'Gyermekbútor',
+        'teljes' => 'Teljes berendezés',
+        'Hálószoba' => 'Hálószoba',
+        'konyha' => 'Konyha',
+        'nappali' => 'Nappali',
+        'iroda' => 'Iroda',
+        'tárolás' => 'Tárolás',
         'other' => 'Egyéb'
     ];
     return $types[$type] ?? ucfirst($type);

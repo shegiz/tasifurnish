@@ -141,21 +141,6 @@ include __DIR__ . '/../includes/header.php';
             </div>
             
             <div class="form-group">
-                <label for="budget">Költségvetési tartomány</label>
-                <select id="budget" name="budget" class="<?php echo !empty($errors['budget']) ? 'error-input' : ''; ?>">
-                    <option value="">Kérjük, válasszon...</option>
-                    <option value="under-1000" <?php echo (isset($form_data['budget']) && $form_data['budget'] === 'under-1000') ? 'selected' : ''; ?>>€1,000 alatt</option>
-                    <option value="1000-3000" <?php echo (isset($form_data['budget']) && $form_data['budget'] === '1000-3000') ? 'selected' : ''; ?>>€1,000 - €3,000</option>
-                    <option value="3000-5000" <?php echo (isset($form_data['budget']) && $form_data['budget'] === '3000-5000') ? 'selected' : ''; ?>>€3,000 - €5,000</option>
-                    <option value="5000-10000" <?php echo (isset($form_data['budget']) && $form_data['budget'] === '5000-10000') ? 'selected' : ''; ?>>€5,000 - €10,000</option>
-                    <option value="over-10000" <?php echo (isset($form_data['budget']) && $form_data['budget'] === 'over-10000') ? 'selected' : ''; ?>>€10,000 felett</option>
-                </select>
-                <?php if (!empty($errors['budget'])): ?>
-                    <span class="error"><?php echo e($errors['budget']); ?></span>
-                <?php endif; ?>
-            </div>
-            
-            <div class="form-group">
                 <label for="message">Üzenet <span class="required">*</span></label>
                 <textarea id="message" name="message" required class="<?php echo !empty($errors['message']) ? 'error-input' : ''; ?>"><?php echo e($form_data['message'] ?? ''); ?></textarea>
                 <?php if (!empty($errors['message'])): ?>

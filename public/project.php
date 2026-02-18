@@ -30,9 +30,6 @@ include __DIR__ . '/../includes/header.php';
                 <div class="project-detail-meta">
                     <span><strong>Kategória:</strong> <?php echo format_project_type($project['category']); ?></span>
                     <span><strong>Év:</strong> <?php echo e($project['year']); ?></span>
-                    <?php if (!empty($project['materials'])): ?>
-                    <span><strong>Anyagok:</strong> <?php echo e($project['materials']); ?></span>
-                    <?php endif; ?>
                     <?php if (!empty($project['location'])): ?>
                     <span><strong>Helyszín:</strong> <?php echo e($project['location']); ?></span>
                     <?php endif; ?>
