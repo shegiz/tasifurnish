@@ -339,6 +339,8 @@ p {
     }
 }
 
+
+
 /* ===== BUTTONS ===== */
 .btn {
     display: inline-block;
@@ -405,6 +407,10 @@ p {
     max-width: 700px;
     margin: 0 auto var(--spacing-lg);
     color: var(--color-text-light);
+}
+
+.section .separator {
+    background-image: url("/assets/img/munkak/sashalom-csaladi-haz-3.jpg");
 }
 
 /* ===== SERVICES GRID ===== */

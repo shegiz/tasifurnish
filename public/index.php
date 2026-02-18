@@ -100,7 +100,7 @@ include __DIR__ . '/../includes/header.php';
         </div>
     </div>
 </section>
-
+<section class="separator"></section>
 <section class="section projects">
     <div class="container">
         <h2 class="section-title">Kiemelt projektek</h2>
