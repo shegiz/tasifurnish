@@ -43,12 +43,9 @@ include __DIR__ . '/../includes/header.php';
             </div>
             
             <div class="project-detail-content">
-                <h3>Erről a projektről</h3>
-                <p><?php echo nl2br(e($project['description'])); ?></p>
-                
-                <?php if (!empty($project['materials'])): ?>
-                <h3>Anyagok és befejezés</h3>
-                <p><?php echo e($project['materials']); ?></p>
+                <?php if (!empty($project['description'])): ?>
+                    <h3>Erről a projektről</h3>
+                    <p><?php echo nl2br(e($project['description'])); ?></p>
                 <?php endif; ?>
             </div>
             
