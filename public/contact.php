@@ -99,9 +99,9 @@ include __DIR__ . '/../includes/header.php';
             
             <div class="form-group">
                 <label for="name">Név <span class="required">*</span></label>
-                <input type="text" id="name" name="name" required value="<?php echo e($form_data['name'] ?? ''); ?>" class="<?php echo !empty($errors['name']) ? 'error-input' : ''; ?>">
+                <input type="text" id="name" name="nev" required value="<?php echo e($form_data['nev'] ?? ''); ?>" class="<?php echo !empty($errors['nev']) ? 'error-input' : ''; ?>">
                 <?php if (!empty($errors['name'])): ?>
-                    <span class="error"><?php echo e($errors['name']); ?></span>
+                    <span class="error"><?php echo e($errors['nev']); ?></span>
                 <?php endif; ?>
             </div>
             
@@ -115,48 +115,46 @@ include __DIR__ . '/../includes/header.php';
             
             <div class="form-group">
                 <label for="phone">Telefon</label>
-                <input type="tel" id="phone" name="phone" value="<?php echo e($form_data['phone'] ?? ''); ?>" class="<?php echo !empty($errors['phone']) ? 'error-input' : ''; ?>">
+                <input type="tel" id="phone" name="telefon" value="<?php echo e($form_data['telefon'] ?? ''); ?>" class="<?php echo !empty($errors['telefon']) ? 'error-input' : ''; ?>">
                 <?php if (!empty($errors['phone'])): ?>
-                    <span class="error"><?php echo e($errors['phone']); ?></span>
+                    <span class="error"><?php echo e($errors['telefon']); ?></span>
                 <?php endif; ?>
             </div>
             
             <div class="form-group">
-                <label for="project_type">Projekt típus <span class="required">*</span></label>
-                <select id="project_type" name="project_type" required class="<?php echo !empty($errors['project_type']) ? 'error-input' : ''; ?>">
+                <label for="project_tipus">Projekt típus <span class="required">*</span></label>
+                <select id="project_tipus" name="project_tipus" required class="<?php echo !empty($errors['project_tipus']) ? 'error-input' : ''; ?>">
                     <option value="">Kérjük, válasszon...</option>
-                    <option value="dining" <?php echo (isset($form_data['project_type']) && $form_data['project_type'] === 'dining') ? 'selected' : ''; ?>>Ebédlő</option>
-                    <option value="bedroom" <?php echo (isset($form_data['project_type']) && $form_data['project_type'] === 'bedroom') ? 'selected' : ''; ?>>Hálószoba</option>
-                    <option value="kitchen" <?php echo (isset($form_data['project_type']) && $form_data['project_type'] === 'kitchen') ? 'selected' : ''; ?>>Konyha</option>
-                    <option value="living" <?php echo (isset($form_data['project_type']) && $form_data['project_type'] === 'living') ? 'selected' : ''; ?>>Nappali</option>
-                    <option value="office" <?php echo (isset($form_data['project_type']) && $form_data['project_type'] === 'office') ? 'selected' : ''; ?>>Iroda</option>
-                    <option value="storage" <?php echo (isset($form_data['project_type']) && $form_data['project_type'] === 'storage') ? 'selected' : ''; ?>>Tárolási megoldások</option>
-                    <option value="outdoor" <?php echo (isset($form_data['project_type']) && $form_data['project_type'] === 'outdoor') ? 'selected' : ''; ?>>Kültér</option>
-                    <option value="children" <?php echo (isset($form_data['project_type']) && $form_data['project_type'] === 'children') ? 'selected' : ''; ?>>Gyermekbútor</option>
-                    <option value="other" <?php echo (isset($form_data['project_type']) && $form_data['project_type'] === 'other') ? 'selected' : ''; ?>>Egyéb</option>
+                    <option value="halo" <?php echo (isset($form_data['project_tipus']) && $form_data['project_tipus'] === 'halo') ? 'selected' : ''; ?>>Hálószoba</option>
+                    <option value="konyha" <?php echo (isset($form_data['project_tipus']) && $form_data['project_tipus'] === 'konyga') ? 'selected' : ''; ?>>Konyha</option>
+                    <option value="teljes" <?php echo (isset($form_data['project_tipus']) && $form_data['project_tipus'] === 'teljes') ? 'selected' : ''; ?>>Teljes Enteriőr</option>
+                    <option value="iroda" <?php echo (isset($form_data['project_tipus']) && $form_data['project_tipus'] === 'iroda') ? 'selected' : ''; ?>>Iroda</option>
+                    <option value="tarolas" <?php echo (isset($form_data['project_tipus']) && $form_data['project_tipus'] === 'tarolas') ? 'selected' : ''; ?>>Tárolási megoldások</option>
+                    <option value="lepcso" <?php echo (isset($form_data['project_tipus']) && $form_data['project_tipus'] === 'lepcso') ? 'selected' : ''; ?>>Lépcső</option>
+                    <option value="egyeb" <?php echo (isset($form_data['project_tipus']) && $form_data['project_tipus'] === 'egyeb') ? 'selected' : ''; ?>>Egyéb</option>
                 </select>
-                <?php if (!empty($errors['project_type'])): ?>
-                    <span class="error"><?php echo e($errors['project_type']); ?></span>
+                <?php if (!empty($errors['project_tipus'])): ?>
+                    <span class="error"><?php echo e($errors['project_tipus']); ?></span>
                 <?php endif; ?>
             </div>
             
             <div class="form-group">
-                <label for="message">Üzenet <span class="required">*</span></label>
-                <textarea id="message" name="message" required class="<?php echo !empty($errors['message']) ? 'error-input' : ''; ?>"><?php echo e($form_data['message'] ?? ''); ?></textarea>
-                <?php if (!empty($errors['message'])): ?>
-                    <span class="error"><?php echo e($errors['message']); ?></span>
+                <label for="uzenet">Üzenet <span class="required">*</span></label>
+                <textarea id="uzenet" name="uzenet" required class="<?php echo !empty($errors['uzenet']) ? 'error-input' : ''; ?>"><?php echo e($form_data['message'] ?? ''); ?></textarea>
+                <?php if (!empty($errors['uzenet'])): ?>
+                    <span class="error"><?php echo e($errors['uzenet']); ?></span>
                 <?php endif; ?>
             </div>
             
             <div class="form-group">
-                <label for="contact_method">Előnyben részesített kapcsolattartási módszer</label>
-                <select id="contact_method" name="contact_method" class="<?php echo !empty($errors['contact_method']) ? 'error-input' : ''; ?>">
+                <label for="kapcsolat_tipusa">Előnyben részesített kapcsolattartási módszer</label>
+                <select id="kapcsolat_tipusa" name="kapcsolat_tipusa" class="<?php echo !empty($errors['kapcsolat_tipusa']) ? 'error-input' : ''; ?>">
                     <option value="">Nincs preferencia</option>
-                    <option value="email" <?php echo (isset($form_data['contact_method']) && $form_data['contact_method'] === 'email') ? 'selected' : ''; ?>>Email</option>
-                    <option value="phone" <?php echo (isset($form_data['contact_method']) && $form_data['contact_method'] === 'phone') ? 'selected' : ''; ?>>Telefon</option>
+                    <option value="email" <?php echo (isset($form_data['kapcsolat_tipusa']) && $form_data['kapcsolat_tipusa'] === 'email') ? 'selected' : ''; ?>>Email</option>
+                    <option value="telefon" <?php echo (isset($form_data['kapcsolat_tipusa']) && $form_data['kapcsolat_tipusa'] === 'telefon') ? 'selected' : ''; ?>>Telefon</option>
                 </select>
-                <?php if (!empty($errors['contact_method'])): ?>
-                    <span class="error"><?php echo e($errors['contact_method']); ?></span>
+                <?php if (!empty($errors['kapcsolat_tipusa'])): ?>
+                    <span class="error"><?php echo e($errors['kapcsolat_tipusa']); ?></span>
                 <?php endif; ?>
             </div>
             
