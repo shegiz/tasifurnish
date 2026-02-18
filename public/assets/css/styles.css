@@ -214,8 +214,6 @@ p {
 .nav-menu a:focus,
 .nav-menu a.active {
     background-color: var(--color-bg);
-    color: var(--color-primary);
-    font-weight: 600;
 }
 
 @media (min-width: 768px) {
@@ -328,7 +326,8 @@ p {
     }
     
     .hero .tagline {
-        font-size: 1.15rem;
+        font-size: 1.3rem;
+        color: var(--color-white);
     }
     
     .hero-ctas {
