@@ -11,7 +11,6 @@ include __DIR__ . '/../includes/header.php';
         <h1 class="section-title">Rólunk - <?php echo e($company['name']); ?></h1>
         
         <div style="max-width: 800px; margin: 0 auto;">
-            <h2>Történetünk</h2>
             <p>Cégünk 2019 óta foglalkozik egyedi bútorok tervezésével és gyártásával, azonban a személyes, szakma iránti elköteleződésem ennél jóval régebbre nyúlik vissza. Több mint 30 éve dolgozom az egyedi bútorok világában, ahol a minőség, a precizitás és az ügyfél elképzeléseinek maradéktalan megvalósítása mindig elsődleges szempont volt. Minden általunk készített bútor egyedi tervezés eredménye, amely a funkcionalitást és az esztétikát ötvözi, legyen szó konyháról, nappaliról, hálószobáról vagy teljes belsőépítészeti megoldásról.</p>
             <p>Célunk, hogy időtálló, személyre szabott bútorokat alkossunk, amelyek hosszú távon is értéket képviselnek. Hiszünk abban, hogy az igazi minőség a részletekben rejlik. Gondos tervezés, válogatott alapanyagok és precíz kivitelezés – ezek mentén készülnek bútoraink.</p>
 

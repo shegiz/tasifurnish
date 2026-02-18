@@ -45,8 +45,8 @@ include __DIR__ . '/../includes/header.php';
         
         <div class="services-grid">
             <div class="service-card">
-                <h3>Ebédlő</h3>
-                <p>Egyedi asztalok, székek és oldalszekrények, amelyek összehozzák a családot az asztal körül.</p>
+                <h3>Enteriőrtervezés</h3>
+                <p>Okos térkihasználás és professzionális tervezés, legyen szó akár egyetlen szobáról vagy a teljes házról.</p>
             </div>
             <div class="service-card">
                 <h3>Hálószoba</h3>
@@ -54,19 +54,19 @@ include __DIR__ . '/../includes/header.php';
             </div>
             <div class="service-card">
                 <h3>Konyha</h3>
-                <p>Szigetek, szekrények és vágódeszkák, amelyek funkcionalitást párosítanak szépséggel.</p>
+                <p>Funkcionális és esztétikus konyhabútorok kialakítása az Ön igényeire szabva.</p>
             </div>
             <div class="service-card">
-                <h3>Nappali</h3>
-                <p>Médiakonzolok, dohányzóasztalok és polcok a tér szervezéséhez és fokozásához.</p>
+                <h3>Lépcsők, korlátok</h3>
+                <p>Egyedi lépcsők és biztonságos korlátok tervezése és kivitelezése, amik a tér és az otthon szerves részei lesznek.</p>
             </div>
             <div class="service-card">
                 <h3>Iroda</h3>
-                <p>Íróasztalok, könyvespolcok és tárolási megoldások produktív munkaterületekhez.</p>
+                <p>Íróasztalok, könyvespolcok és tárolási megoldások produktív munkavégzéshez.</p>
             </div>
             <div class="service-card">
                 <h3>Tárolási megoldások</h3>
-                <p>Egyedi beépített bútorok, gardróbok és tárolóbútorok az Ön igényeihez igazítva.</p>
+                <p>Egyedi tervezésű gardrób megoldások, amelyek a hely előnyeit maximalizálják.</p>
             </div>
         </div>
     </div>
@@ -75,12 +75,12 @@ include __DIR__ . '/../includes/header.php';
 <section class="section" style="background-color: var(--color-white);">
     <div class="container">
         <h2 class="section-title">Munkafolyamatunk</h2>
-        <p class="section-intro">Szorosan együttműködünk Önnel a koncepciótól a befejezésig. Segítünk, hogy a biztosan dönthessen: átnézzük a különböző anyagokat és a vasalatokban rejlő praktikákat. Felhívjuk figyelmét a leggyakrabban elkövetet buktatókra, amik elkerülésével sok bosszankodást és komoly összegeket takaríthat meg.</p>
+        <p class="section-intro">Szorosan együttműködünk Önnel a koncepciótól a befejezésig. Segítünk, hogy a biztosan dönthessen: elemezzük Önnel a különböző anyagokat és a vasalatokban rejlő praktikákat. Felhívjuk figyelmét a leggyakrabban elkövetet buktatókra, amik elkerülésével sok bosszankodást és komoly összegeket takaríthat meg.</p>
         <div class="process-steps">
             <div class="process-step">
                 <div class="process-step-number">1</div>
                 <h3>Díjmentes konzultáció</h3>
-                <p>Megbeszéljük és megértjük az ön igényeit. Átbeszéljük a munkafolyamatokat, eljárásokat a biztosan dönthessen.</p>
+                <p>Megbeszéljük és megértjük az Ön igényeit. Átbeszéljük a munkafolyamatokat, eljárásokat és árakat.</p>
             </div>
             <div class="process-step">
                 <div class="process-step-number">2</div>
