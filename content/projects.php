@@ -133,6 +133,6 @@ return [
         'description' => 'Egyedi lépcsők és biztonságos korlátok tervezése és kivitelezése, amik a tér és az otthon szerves részei lesznek.',
         'year' => 2024,
         'location' => 'Budapest, XI. kerület',
-        'images' => ['lepcso-1.jpg, lepcso-2.jpg, lepcso-3.jpg']
+        'images' => ['lepcso-1.jpg', 'lepcso-2.jpg', 'lepcso-3.jpg']
     ]
 ];
