@@ -38,7 +38,7 @@ include __DIR__ . '/../includes/header.php';
             
             <div class="project-detail-images">
                 <?php foreach ($project['images'] as $image): ?>
-                <img src="/assets/img/<?php echo e($image); ?>" alt="<?php echo e($project['title']); ?>" class="project-detail-image" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'800\' height=\'600\'%3E%3Crect fill=\'%23E8E0D6\' width=\'800\' height=\'600\'/%3E%3Ctext fill=\'%235C4A3A\' font-family=\'sans-serif\' font-size=\'20\' x=\'50%25\' y=\'50%25\' text-anchor=\'middle\' dominant-baseline=\'middle\'%3E<?php echo e($project['title']); ?>%3C/text%3E%3C/svg%3E';">
+                <img src="/assets/img/munkak/<?php echo e($image); ?>" alt="<?php echo e($project['title']); ?>" class="project-detail-image" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'800\' height=\'600\'%3E%3Crect fill=\'%23E8E0D6\' width=\'800\' height=\'600\'/%3E%3Ctext fill=\'%235C4A3A\' font-family=\'sans-serif\' font-size=\'20\' x=\'50%25\' y=\'50%25\' text-anchor=\'middle\' dominant-baseline=\'middle\'%3E<?php echo e($project['title']); ?>%3C/text%3E%3C/svg%3E';">
                 <?php endforeach; ?>
             </div>
             

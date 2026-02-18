@@ -9,11 +9,11 @@ return [
         'slug' => 'sashalom-csaladi-haz',
         'title' => 'Sashalom családi ház',
         'category' => 'teljes enteriőr',
-        'short' => 'Időtlen 8 személyes ebédlőasztal osztrák tölgyből készítve.',
-        'description' => 'Ez a pompás ebédlőasztal nyolc személyt kényelmesen ültet, és bemutatja az osztrák tölgy természetes szépségét. Az asztallap élő szélű dizájnnal rendelkezik, megőrizve a fa szerves jellegét. Kézzel készített, élelmiszer-biztos olajjal kezelt, generációkon át tartós.',
+        'short' => '',
+        'description' => '',
         'year' => 2024,
         'location' => 'Sashalom',
-        'images' => ['dining-table-1.jpg', 'dining-table-2.jpg', 'dining-table-3.jpg']
+        'images' => ['sashalom-csaladi-haz-1.jpg', 'sashalom-csaladi-haz-2.jpg', 'sashalom-csaladi-haz-3.jpg','sashalom-csaladi-haz-4.jpg', 'sashalom-csaladi-haz-5.jpg', 'sashalom-csaladi-haz-6.jpg']
     ],
     [
         'slug' => 'walnut-bookcase',
