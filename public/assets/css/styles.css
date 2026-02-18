@@ -335,6 +335,8 @@ p {
     
     .hero-ctas {
         display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 }
 
