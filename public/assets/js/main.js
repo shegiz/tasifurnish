@@ -101,6 +101,68 @@
         }, intervalMs);
     }
 
+    // Project image lightbox (no navigation, stays on page)
+    const lightbox = (function() {
+        let overlay = document.querySelector('.lightbox-overlay');
+        let imgEl = null;
+        let closeBtn = null;
+
+        function ensure() {
+            if (overlay) return;
+            overlay = document.createElement('div');
+            overlay.className = 'lightbox-overlay';
+            overlay.setAttribute('role', 'dialog');
+            overlay.setAttribute('aria-modal', 'true');
+            overlay.setAttribute('aria-label', 'Kép nagyítva');
+
+            overlay.innerHTML = ''
+                + '<div class="lightbox-dialog">'
+                + '  <button type="button" class="lightbox-close" aria-label="Bezárás">×</button>'
+                + '  <img class="lightbox-image" alt="">'
+                + '</div>';
+
+            document.body.appendChild(overlay);
+            imgEl = overlay.querySelector('.lightbox-image');
+            closeBtn = overlay.querySelector('.lightbox-close');
+
+            closeBtn.addEventListener('click', close);
+            overlay.addEventListener('click', function(e) {
+                // close when clicking backdrop (not the image/dialog)
+                if (e.target === overlay) close();
+            });
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && overlay.classList.contains('is-open')) {
+                    close();
+                }
+            });
+        }
+
+        function openFromImage(image) {
+            ensure();
+            imgEl.src = image.currentSrc || image.src;
+            imgEl.alt = image.alt || '';
+            document.body.classList.add('lightbox-open');
+            overlay.classList.add('is-open');
+            closeBtn.focus();
+        }
+
+        function close() {
+            if (!overlay) return;
+            overlay.classList.remove('is-open');
+            document.body.classList.remove('lightbox-open');
+            if (imgEl) imgEl.src = '';
+        }
+
+        return { openFromImage };
+    })();
+
+    document.addEventListener('click', function(e) {
+        const target = e.target;
+        if (!(target instanceof HTMLImageElement)) return;
+        if (!target.classList.contains('project-detail-image')) return;
+        lightbox.openFromImage(target);
+    });
+
     // Form validation enhancement (client-side, server-side is primary)
     const contactForm = document.querySelector('form[action*="contact"]');
     if (contactForm) {
