@@ -40,8 +40,8 @@ include __DIR__ . '/../includes/header.php';
 
 <section class="section">
     <div class="container">
-        <h2 class="section-title">Mit készítünk</h2>
-        <p class="section-intro">Egyedi ebédlőasztaloktól a beépített tárolási megoldásokig, olyan bútorokat készítünk, amelyek időtlen dizájnt párosítanak kivételes minőséggel. Minden darab rendelésre készül, az Ön helyszínéhez és stílusához igazítva.</p>
+        <h2 class="section-title">Miker rendelhet tőlünk</h2>
+        <p class="section-intro">Olyan bútorokat tervezünk és kivitelezünk, amelyek időtlen dizájnt párosítanak kivételes minőséggel. Minden darab rendelésre készül, az Ön stílusához és igényeihez igazítva.</p>
         
         <div class="services-grid">
             <div class="service-card">
