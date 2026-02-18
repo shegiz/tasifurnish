@@ -208,6 +208,8 @@ p {
     padding: var(--spacing-sm);
     color: var(--color-text);
     border-radius: 4px;
+    text-decoration: none;
+
 }
 
 .nav-menu a:hover,
@@ -349,6 +351,7 @@ p {
     cursor: pointer;
     transition: var(--transition);
     text-align: center;
+    text-decoration: none;
 }
 
 .btn:hover,
