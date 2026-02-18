@@ -484,6 +484,12 @@ p {
 }
 
 /* ===== PROJECT GRID ===== */
+
+.section .projects {
+    background-image: url("/public/assets/img/isometric.png");
+    background-repeat: repeat;
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: 1fr;

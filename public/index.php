@@ -101,7 +101,7 @@ include __DIR__ . '/../includes/header.php';
     </div>
 </section>
 
-<section class="section">
+<section class="section projects">
     <div class="container">
         <h2 class="section-title">Kiemelt projektek</h2>
         <p class="section-intro">Fedezze fel néhány legutóbbi munkánkat, amelyek bemutatják a minőséget és a mesterségbeliséget, amit minden projektbe hozunk.</p>
@@ -121,29 +121,6 @@ include __DIR__ . '/../includes/header.php';
         
         <div class="text-center mt-lg">
             <a href="/portfolio.php" class="btn">Összes projekt megtekintése</a>
-        </div>
-    </div>
-</section>
-
-<section class="section" style="background-color: var(--color-white);">
-    <div class="container">
-        <h2 class="section-title">Mit mondanak ügyfeleink</h2>
-        <p class="section-intro">Büszkék vagyunk az ügyfeleinkkel kialakított kapcsolatokra és a munkánkba vetett bizalmukra.</p>
-        
-        <div class="testimonials-grid">
-            <?php foreach ($testimonials_preview as $testimonial): ?>
-            <div class="testimonial-card">
-                <p class="testimonial-quote"><?php echo e($testimonial['quote']); ?></p>
-                <div class="testimonial-author"><?php echo e($testimonial['name']); ?></div>
-                <?php if (!empty($testimonial['location'])): ?>
-                <div class="testimonial-location"><?php echo e($testimonial['location']); ?></div>
-                <?php endif; ?>
-            </div>
-            <?php endforeach; ?>
-        </div>
-        
-        <div class="text-center mt-lg">
-            <a href="/references.php" class="btn">Több vélemény olvasása</a>
         </div>
     </div>
 </section>
