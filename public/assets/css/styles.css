@@ -415,6 +415,7 @@ p {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    padding: var(--spacing-2xl) 0;
 }
 
 /* ===== SERVICES GRID ===== */
