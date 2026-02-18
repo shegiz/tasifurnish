@@ -73,7 +73,7 @@ return [
         'description' => '',
         'year' => 2024,
         'location' => 'Budapest, II. kerület',
-        'images' => ['pasaret-1.jpg', 'pasaret-2.jpg', 'pasaret-3.jpg']
+        'images' => ['pasareti-1.jpg', 'pasareti-2.jpg', 'pasareti-3.jpg']
     ],
     [
         'slug' => 'taljandorogd',
@@ -83,7 +83,7 @@ return [
         'description' => '',
         'year' => 2023,
         'location' => 'Alsó-Ausztria',
-        'images' => ['bench-1.jpg', 'bench-2.jpg']
+        'images' => ['taljandorog-1.jpg', 'taljandorog-2.jpg', 'taljandorog-3.jpg']
     ],
     [
         'slug' => 'budai-konyha',
@@ -113,7 +113,7 @@ return [
         'description' => '',
         'year' => 2024,
         'location' => 'Budapest, III. kerület',
-        'images' => ['wardrobe-1.jpg', 'wardrobe-2.jpg', 'wardrobe-3.jpg']
+        'images' => ['csillaghegy-e.jpg']
     ],
     [
         'slug' => 'tizenegy',
