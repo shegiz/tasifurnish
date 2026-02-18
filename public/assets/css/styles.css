@@ -309,7 +309,7 @@ p {
 }
 
 .hero-ctas {
-    display: flex;
+    display: inline;
     flex-direction: column;
     gap: var(--spacing-sm);
     align-items: center;
@@ -334,8 +334,7 @@ p {
     }
     
     .hero-ctas {
-        flex-direction: row;
-        justify-content: center;
+        display: flex;
     }
 }
 
