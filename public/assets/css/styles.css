@@ -374,13 +374,14 @@ p {
 }
 
 .btn-large {
-    padding: var(--spacing-sm) var(--spacing-xl);
-    font-size: 1.125rem;
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: 1rem;
 }
 
 @media (min-width: 768px) {
     .btn-large {
-        padding: var(--spacing-md) var(--spacing-lg);
+        padding: var(--spacing-sm) var(--spacing-xl);
+        font-size: 1.125rem;
     }
 }
 
