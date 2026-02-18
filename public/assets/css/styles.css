@@ -544,7 +544,7 @@ p {
 }
 
 .project-card h3 {
-    color: var(--color-primary);
+    color: var(--color-secondary-dark);
     margin-bottom: var(--spacing-xs);
 }
 
