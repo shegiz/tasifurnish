@@ -71,7 +71,7 @@ include __DIR__ . '/../includes/header.php';
         </div>
     </div>
 </section>
-
+<section class="section separator"></section>
 <section class="section" style="background-color: var(--color-white);">
     <div class="container">
         <h2 class="section-title">Munkafolyamatunk</h2>
@@ -100,7 +100,6 @@ include __DIR__ . '/../includes/header.php';
         </div>
     </div>
 </section>
-<section class="separator"></section>
 <section class="section projects">
     <div class="container">
         <h2 class="section-title">Kiemelt projektek</h2>
