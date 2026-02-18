@@ -485,7 +485,7 @@ p {
 
 /* ===== PROJECT GRID ===== */
 
-.section .projects {
+.section.projects {
     background-image: url("/public/assets/img/isometric.png");
     background-repeat: repeat;
 }
