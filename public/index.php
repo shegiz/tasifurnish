@@ -127,8 +127,8 @@ include __DIR__ . '/../includes/header.php';
 
 <section class="cta-strip">
     <div class="container">
-        <h2>Készen áll a projekt megkezdésére?</h2>
-        <p>Lépjen velünk kapcsolatba, hogy megbeszéljük egyedi bútorigényeit.</p>
+        <h2>Készen áll hogy megtegye az első lépést?</h2>
+        <p>Lépjen velünk kapcsolatba, segítünk megvalósítani elképzeléseit.</p>
         <p>
             <a href="tel:<?php echo e($company['phone']); ?>"><?php echo e($company['phone']); ?></a> | 
             <a href="mailto:<?php echo e($company['email']); ?>"><?php echo e($company['email']); ?></a>
