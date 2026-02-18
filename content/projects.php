@@ -9,8 +9,8 @@ return [
         'slug' => 'sashalom-csaladi-haz',
         'title' => 'Sashalom családi ház',
         'category' => 'teljes enteriőr',
-        'short' => '',
-        'description' => '',
+        'short' => 'Modern, letisztult lakásbelső.',
+        'description' => 'Modern, letisztult lakásbelső, ahol a fényes fehér felületeket meleg faelemek és egyedi mintás burkolatok egészítik ki. A természetes fény és a különleges mennyezeti, illetve faldekorációk elegáns, mégis otthonos hangulatot teremtenek.',
         'year' => 2024,
         'location' => 'Sashalom',
         'images' => ['sashalom-csaladi-haz-1.jpg', 'sashalom-csaladi-haz-2.jpg', 'sashalom-csaladi-haz-3.jpg','sashalom-csaladi-haz-4.jpg', 'sashalom-csaladi-haz-5.jpg', 'sashalom-csaladi-haz-6.jpg']
