@@ -512,6 +512,11 @@ p {
     background-color: var(--color-secondary-verylight);
 }
 
+
+.section.projects.v2 {
+    background-color: var(--color-secondary-transparent);
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: 1fr;

@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 include __DIR__ . '/../includes/header.php';
 ?>
 
-<section class="section">
+<section class="section projects v2">
     <div class="container">
         <h1 class="section-title">Kapcsolat</h1>
         <p class="section-intro">Van egy projekt ötlete? Lépjen velünk kapcsolatba, és beszéljük meg, hogyan valósíthatjuk meg az ön elképzelését.</p>
