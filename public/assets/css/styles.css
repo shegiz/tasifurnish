@@ -379,7 +379,7 @@ p {
 }
 
 @media (min-width: 768px) {
-    .btn {
+    .btn-large {
         padding: var(--spacing-md) var(--spacing-lg);
     }
 }
