@@ -413,6 +413,7 @@ p {
     background-image: url("/assets/img/munkak/sashalom-csaladi-haz-3.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 /* ===== SERVICES GRID ===== */
