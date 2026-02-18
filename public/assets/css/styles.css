@@ -340,7 +340,7 @@ p {
 /* ===== BUTTONS ===== */
 .btn {
     display: inline-block;
-    padding: var(--spacing-xs) var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-lg);
     background-color: var(--color-secondary-dark);
     color: var(--color-white);
     border: 2px solid var(--color-secondary-dark);
@@ -374,13 +374,13 @@ p {
 }
 
 .btn-large {
-    padding: var(--spacing-sm) var(--spacing-xl);
+    padding: var(--spacing-xs) var(--spacing-sm);
     font-size: 1.125rem;
 }
 
 @media (min-width: 768px) {
     .btn {
-        padding: var(--spacing-sm) var(--spacing-lg);
+        padding: var(--spacing-md) var(--spacing-lg);
     }
 }
 
