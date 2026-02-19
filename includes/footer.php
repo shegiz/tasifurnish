@@ -25,6 +25,7 @@
                         <?php echo e($company['address']['country']); ?>
                     </p>
                 </div>
+<!--
                 <div class="footer-section">
                     <h4>Kövess minket</h4>
                     <ul class="social-links">
@@ -38,7 +39,7 @@
                         <li><a href="<?php echo e($company['social']['pinterest']); ?>" target="_blank" rel="noopener noreferrer" aria-label="Pinterest">Pinterest</a></li>
                         <?php endif; ?>
                     </ul>
-                </div>
+                </div> -->
             </div>
             <div class="footer-bottom">
                 <p>&copy; <?php echo date('Y'); ?> <?php echo e($company['name']); ?>. Minden jog fenntartva.</p>
