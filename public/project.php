@@ -53,7 +53,7 @@ include __DIR__ . '/../includes/header.php';
             
             <div class="text-center mt-lg">
                 <a href="/portfolio.php" class="btn">Vissza a portfólióhoz</a>
-                <a href="/contact.php" class="btn">Hasonló projekt kérése</a>
+                <a href="/contact.php" class="btn">Hasonló projekt igénylése</a>
             </div>
         </div>
     </div>

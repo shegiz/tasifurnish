@@ -44,7 +44,7 @@ include __DIR__ . '/../includes/header.php';
 <section class="section projects v2">
     <div class="container">
         <h1 class="section-title">Kapcsolat</h1>
-        <p class="section-intro">Van egy projekt ötlete? Lépjen velünk kapcsolatba, és beszéljük meg, hogyan valósíthatjuk meg az ön elképzelését.</p>
+        <p class="section-intro">Van egy projekt ötlete? Lépjen velünk kapcsolatba, és beszéljük meg, hogyan valósíthatjuk meg az Ön elképzelését.</p>
         
         <div class="contact-info">
             <div class="contact-info-grid">
@@ -100,7 +100,7 @@ include __DIR__ . '/../includes/header.php';
             <div class="form-group">
                 <label for="name">Név <span class="required">*</span></label>
                 <input type="text" id="name" name="nev" required value="<?php echo e($form_data['nev'] ?? ''); ?>" class="<?php echo !empty($errors['nev']) ? 'error-input' : ''; ?>">
-                <?php if (!empty($errors['name'])): ?>
+                <?php if (!empty($errors['nev'])): ?>
                     <span class="error"><?php echo e($errors['nev']); ?></span>
                 <?php endif; ?>
             </div>
@@ -116,7 +116,7 @@ include __DIR__ . '/../includes/header.php';
             <div class="form-group">
                 <label for="phone">Telefon</label>
                 <input type="tel" id="phone" name="telefon" value="<?php echo e($form_data['telefon'] ?? ''); ?>" class="<?php echo !empty($errors['telefon']) ? 'error-input' : ''; ?>">
-                <?php if (!empty($errors['phone'])): ?>
+                <?php if (!empty($errors['telefon'])): ?>
                     <span class="error"><?php echo e($errors['telefon']); ?></span>
                 <?php endif; ?>
             </div>
@@ -126,8 +126,8 @@ include __DIR__ . '/../includes/header.php';
                 <select id="project_tipus" name="project_tipus" required class="<?php echo !empty($errors['project_tipus']) ? 'error-input' : ''; ?>">
                     <option value="">Kérjük, válasszon...</option>
                     <option value="halo" <?php echo (isset($form_data['project_tipus']) && $form_data['project_tipus'] === 'halo') ? 'selected' : ''; ?>>Hálószoba</option>
-                    <option value="konyha" <?php echo (isset($form_data['project_tipus']) && $form_data['project_tipus'] === 'konyga') ? 'selected' : ''; ?>>Konyha</option>
-                    <option value="teljes" <?php echo (isset($form_data['project_tipus']) && $form_data['project_tipus'] === 'teljes') ? 'selected' : ''; ?>>Teljes Enteriőr</option>
+                    <option value="konyha" <?php echo (isset($form_data['project_tipus']) && $form_data['project_tipus'] === 'konyha') ? 'selected' : ''; ?>>Konyha</option>
+                    <option value="teljes" <?php echo (isset($form_data['project_tipus']) && $form_data['project_tipus'] === 'teljes') ? 'selected' : ''; ?>>Teljes enteriőr</option>
                     <option value="iroda" <?php echo (isset($form_data['project_tipus']) && $form_data['project_tipus'] === 'iroda') ? 'selected' : ''; ?>>Iroda</option>
                     <option value="tarolas" <?php echo (isset($form_data['project_tipus']) && $form_data['project_tipus'] === 'tarolas') ? 'selected' : ''; ?>>Tárolási megoldások</option>
                     <option value="lepcso" <?php echo (isset($form_data['project_tipus']) && $form_data['project_tipus'] === 'lepcso') ? 'selected' : ''; ?>>Lépcső</option>
@@ -140,7 +140,7 @@ include __DIR__ . '/../includes/header.php';
             
             <div class="form-group">
                 <label for="uzenet">Üzenet <span class="required">*</span></label>
-                <textarea id="uzenet" name="uzenet" required class="<?php echo !empty($errors['uzenet']) ? 'error-input' : ''; ?>"><?php echo e($form_data['message'] ?? ''); ?></textarea>
+                <textarea id="uzenet" name="uzenet" required class="<?php echo !empty($errors['uzenet']) ? 'error-input' : ''; ?>"><?php echo e($form_data['uzenet'] ?? ''); ?></textarea>
                 <?php if (!empty($errors['uzenet'])): ?>
                     <span class="error"><?php echo e($errors['uzenet']); ?></span>
                 <?php endif; ?>

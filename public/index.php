@@ -40,7 +40,7 @@ include __DIR__ . '/../includes/header.php';
 
 <section class="section">
     <div class="container">
-        <h2 class="section-title">Miker rendelhet tőlünk</h2>
+        <h2 class="section-title">Mit rendelhet tőlünk?</h2>
         <p class="section-intro">Olyan bútorokat tervezünk és kivitelezünk, amelyek időtlen dizájnt párosítanak kivételes minőséggel. Minden darab rendelésre készül, az Ön stílusához és igényeihez igazítva.</p>
         
         <div class="services-grid">
@@ -58,7 +58,7 @@ include __DIR__ . '/../includes/header.php';
             </div>
             <div class="service-card">
                 <h3>Lépcsők, korlátok</h3>
-                <p>Egyedi lépcsők és biztonságos korlátok tervezése és kivitelezése, amik a tér és az otthon szerves részei lesznek.</p>
+                <p>Egyedi lépcsők és biztonságos korlátok tervezése és kivitelezése, amelyek a tér és az otthon szerves részei lesznek.</p>
             </div>
             <div class="service-card">
                 <h3>Iroda</h3>
@@ -75,7 +75,7 @@ include __DIR__ . '/../includes/header.php';
 <section class="section" style="background-color: var(--color-white);">
     <div class="container">
         <h2 class="section-title">Munkafolyamatunk</h2>
-        <p class="section-intro">Szorosan együttműködünk Önnel a koncepciótól a befejezésig. Segítünk, hogy a biztosan dönthessen: elemezzük Önnel a különböző anyagokat és a vasalatokban rejlő praktikákat. Felhívjuk figyelmét a leggyakrabban elkövetet buktatókra, amik elkerülésével sok bosszankodást és komoly összegeket takaríthat meg.</p>
+        <p class="section-intro">Szorosan együttműködünk Önnel a koncepciótól a befejezésig. Segítünk, hogy biztosan dönthessen: elemezzük Önnel a különböző anyagokat és a vasalatokban rejlő praktikákat. Felhívjuk figyelmét a leggyakrabban elkövetett hibákra, amelyek elkerülésével sok bosszúságot és komoly összegeket takaríthat meg.</p>
         <div class="process-steps">
             <div class="process-step">
                 <div class="process-step-number">1</div>
@@ -85,17 +85,17 @@ include __DIR__ . '/../includes/header.php';
             <div class="process-step">
                 <div class="process-step-number">2</div>
                 <h3>Tervezés</h3>
-                <p>Részletes műszaki tartalmat készítünk 3D látvány tervvel, anyag és szin mintákkal véglegesítve.</p>
+                <p>Részletes műszaki tartalmat készítünk 3D látványtervvel, anyag- és színmintákkal véglegesítve.</p>
             </div>
             <div class="process-step">
                 <div class="process-step-number">3</div>
                 <h3>Kivitelezés</h3>
-                <p>Összeszokott asztalos csapat gondoskodik a megtertervezet formák és bútorok prémium anyagokból való elkészítéséről.</p>
+                <p>Összeszokott asztaloscsapat gondoskodik a megtervezett formák és bútorok prémium anyagokból való elkészítéséről.</p>
             </div>
             <div class="process-step">
                 <div class="process-step-number">4</div>
                 <h3>Beépítés</h3>
-                <p>Az elkészített bútorokat a helyszínen beépítjük, hogy minden tökéletesen a helyére kerüljün, készen a használatra.</p>
+                <p>Az elkészített bútorokat a helyszínen beépítjük, hogy minden tökéletesen a helyére kerüljön, készen a használatra.</p>
             </div>
         </div>
     </div>
@@ -126,7 +126,7 @@ include __DIR__ . '/../includes/header.php';
 
 <section class="cta-strip">
     <div class="container">
-        <h2>Készen áll hogy megtegye az első lépést?</h2>
+        <h2>Készen áll, hogy megtegye az első lépést?</h2>
         <p>Lépjen velünk kapcsolatba, segítünk megvalósítani elképzeléseit.</p>
         <p>
             <a href="tel:<?php echo e($company['phone']); ?>"><?php echo e($company['phone']); ?></a> | 
